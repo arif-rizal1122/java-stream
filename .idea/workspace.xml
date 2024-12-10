@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamOperationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamPipelineTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +57,7 @@
     "JUnit.CreateStreamBuilderTest.executor": "Run",
     "JUnit.CreateStreamBuilderTest.testCreateStreamBuilder.executor": "Run",
     "JUnit.CreateStreamOperationTest.executor": "Run",
+    "JUnit.CreateStreamOperationTest.testMapStream.executor": "Run",
     "JUnit.CreateStreamTest.executor": "Run",
     "JUnit.CreateStreamTest.testCreateSingleStream.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +65,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CreateStreamOperationTest.testMapStream">
+  <component name="RunManager" selected="JUnit.CreateStreamPipelineTest.testStreamPipeline">
     <configuration name="CreateStreamBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
@@ -128,7 +128,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateStreamTest.testCreateSingleStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateStreamPipelineTest.testStreamPipeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +137,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateStreamTest" />
-      <option name="METHOD_NAME" value="testCreateSingleStream" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateStreamPipelineTest" />
+      <option name="METHOD_NAME" value="testStreamPipeline" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateStreamPipelineTest.testStreamPipeline" />
         <item itemvalue="JUnit.CreateStreamOperationTest.testMapStream" />
         <item itemvalue="JUnit.CreateStreamOperationTest" />
         <item itemvalue="JUnit.CreateStreamBuilderTest" />
         <item itemvalue="JUnit.CreateStreamBuilderTest.testCreateStreamBuilder" />
-        <item itemvalue="JUnit.CreateStreamTest.testCreateSingleStream" />
       </list>
     </recent_temporary>
   </component>

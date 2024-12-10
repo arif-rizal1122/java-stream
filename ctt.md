@@ -67,5 +67,9 @@ Bisa membuat langsung Stream dari Array, atau dari Collection
 3. Ada banyak sekali jenis-jenis Stream Operations yang nanti akan kita bahas satu persatu
 4. Namun secara garis besar, Stream Operations tidak akan memodifikasi data aslinya, melainkan hasil dari Stream Operations adalah sebuah Stream baru
 
-
+# Stream Pipeline
+Saat kita membuat Stream, biasanya kita akan melakukan banyak operasi terhadap Stream tersebut
+Dan biasanya kita akan membuat Stream Pipeline
+Stream Pipeline terdiri dari sebuah sumber stream (bisa array, collection dan lain-lain), lalu diikuti dengan kosong atau lebih stream operations dan diakhiri dengan operasi akhir, misalnya forEach
+Saat menggunakan Stream, hampir kebanyakan kita pasti akan membuat sebuah Stream Pipeline
 
