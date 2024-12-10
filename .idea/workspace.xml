@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-stream.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamBuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/arif/rizal/CreateStreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/arif/rizal/CreateStreamTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CreateStreamBuilderTest.executor": "Run",
     "JUnit.CreateStreamTest.executor": "Run",
     "JUnit.CreateStreamTest.testCreateSingleStream.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -66,7 +62,38 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CreateStreamTest.testCreateSingleStream">
+  <component name="RunManager" selected="JUnit.CreateStreamBuilderTest">
+    <configuration name="CreateStreamBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateStreamBuilderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateStreamBuilderTest.testCreateStreamBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateStreamBuilderTest" />
+      <option name="METHOD_NAME" value="testCreateStreamBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateStreamTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
@@ -100,6 +127,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateStreamBuilderTest" />
+        <item itemvalue="JUnit.CreateStreamBuilderTest.testCreateStreamBuilder" />
         <item itemvalue="JUnit.CreateStreamTest.testCreateSingleStream" />
         <item itemvalue="JUnit.CreateStreamTest" />
       </list>

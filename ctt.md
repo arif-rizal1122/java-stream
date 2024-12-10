@@ -56,3 +56,8 @@ Bisa membuat langsung Stream dari Array, atau dari Collection
 3. Untuk saat ini, salah satu method yang bisa kita gunakan agar aliran data di Stream mengalir adalah menggunakan method forEach
 4. Stream hanya bisa jalan sekali, mirip seperti aliran data, setelah mengalir, aliran data tidak bisa diulang lagi dari awal
 
+# STREAM BUILDER
+1. Kadang kita ingin membuat Stream secara manual, seperti menambah datanya ke Stream secara manual misalnya
+2. Java menyediakan Stream Builder untuk membuat Stream secara manual, dan kita bisa menggunakannya seperti Collection, kita bisa membuat Stream Builder, menambahkan data ke Stream Builder, setelah selesai, baru kita buat Stream nya
+3. https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/stream/Stream.Builder.html 
+
