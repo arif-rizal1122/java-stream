@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CheckOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/ForEachOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/arif/rizal/AggregateOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/AggregateOperationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/arif/rizal/AggregateOperationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/arif/rizal/AggregateOperationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/arif/rizal/CheckOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/arif/rizal/CheckOperation.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "JUnit.AggregateOperationsTest.executor": "Run",
     "JUnit.AggregateOperationsTest.testAggregateOperation.executor": "Run",
     "JUnit.AggregateOperationsTest.testReduceOperator.executor": "Run",
+    "JUnit.CheckOperation.executor": "Run",
     "JUnit.CheckOperation.testCheckOperation.executor": "Run",
     "JUnit.CreateIntermediateOperationTest.testIntermediateOperationTest.executor": "Run",
     "JUnit.CreateOrderingOperationTest.executor": "Run",
@@ -79,6 +79,9 @@
     "JUnit.FilteringOperationTest.executor": "Run",
     "JUnit.FilteringOperationTest.testDistinct.executor": "Run",
     "JUnit.FilteringOperationTest.testFilteringOperation.executor": "Run",
+    "JUnit.ForEachOperationTest.executor": "Run",
+    "JUnit.ForEachOperationTest.tForEachOperation.executor": "Run",
+    "JUnit.ForEachOperationTest.testForEachOperation.executor": "Run",
     "JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor": "Run",
     "JUnit.RetrievingOperationTest.executor": "Run",
     "JUnit.RetrievingOperationTest.testRetrieveOperationTest.executor": "Run",
@@ -91,54 +94,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CheckOperation">
-    <configuration name="AggregateOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.AggregateOperationsTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AggregateOperationsTest.testAggregateOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.AggregateOperationsTest" />
-      <option name="METHOD_NAME" value="testAggregateOperation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AggregateOperationsTest.testReduceOperator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.AggregateOperationsTest" />
-      <option name="METHOD_NAME" value="testReduceOperator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ForEachOperationTest">
     <configuration name="CheckOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
@@ -170,13 +126,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForEachOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForEachOperationTest.tForEachOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
+      <option name="METHOD_NAME" value="tForEachOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForEachOperationTest.testForEachOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
+      <option name="METHOD_NAME" value="testForEachOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ForEachOperationTest" />
+        <item itemvalue="JUnit.ForEachOperationTest.testForEachOperation" />
+        <item itemvalue="JUnit.ForEachOperationTest.tForEachOperation" />
         <item itemvalue="JUnit.CheckOperation" />
         <item itemvalue="JUnit.CheckOperation.testCheckOperation" />
-        <item itemvalue="JUnit.AggregateOperationsTest.testReduceOperator" />
-        <item itemvalue="JUnit.AggregateOperationsTest" />
-        <item itemvalue="JUnit.AggregateOperationsTest.testAggregateOperation" />
       </list>
     </recent_temporary>
   </component>

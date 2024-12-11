@@ -161,6 +161,9 @@ anyMatch(T -> Boolean)        Apakah ada salah satu data yang match dengan kondi
 allMatch(T -> Boolean)        Apakah semua data match dengan kondisi
 noneMatch(T -> Boolean)       Apakah semua data tidak match dengan kondisi
 
+# For Each Operations
+Untuk mengiterasi data satu persatu, sebelumnya kita sudah sering menggunakan operasi forEach
+Selain forEach, ada juga method untuk melakukan for each, tapi tanpa harus melakukan terminal operation
 
 
 
