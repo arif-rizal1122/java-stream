@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/TransformationOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/FilteringOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
     </list>
@@ -64,6 +64,8 @@
     "JUnit.CreateStreamOperationTest.testMapStream.executor": "Run",
     "JUnit.CreateStreamTest.executor": "Run",
     "JUnit.CreateStreamTest.testCreateSingleStream.executor": "Run",
+    "JUnit.FilteringOperationTest.executor": "Run",
+    "JUnit.FilteringOperationTest.testFilteringOperation.executor": "Run",
     "JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor": "Run",
     "JUnit.TransformationOperationTest.executor": "Run",
     "JUnit.TransformationOperationTest.testFlatMap.executor": "Run",
@@ -73,8 +75,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TransformationOperationTest">
-    <configuration name="CreateStreamPipelineTest.testStreamPipeline" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FilteringOperationTest.testDistinct">
+    <configuration name="FilteringOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -83,14 +85,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateStreamPipelineTest" />
-      <option name="METHOD_NAME" value="testStreamPipeline" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilteringOperationTest.testDistinct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
+      <option name="METHOD_NAME" value="testDistinct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LazyEvalutionTest.testIntermediateOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FilteringOperationTest.testFilteringOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.LazyEvalutionTest" />
-      <option name="METHOD_NAME" value="testIntermediateOperationTest" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
+      <option name="METHOD_NAME" value="testFilteringOperation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,29 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformationOperationTest.testMapOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.TransformationOperationTest" />
-      <option name="METHOD_NAME" value="testMapOperation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FilteringOperationTest.testDistinct" />
+        <item itemvalue="JUnit.FilteringOperationTest" />
+        <item itemvalue="JUnit.FilteringOperationTest.testFilteringOperation" />
         <item itemvalue="JUnit.TransformationOperationTest" />
         <item itemvalue="JUnit.TransformationOperationTest.testFlatMap" />
-        <item itemvalue="JUnit.TransformationOperationTest.testMapOperation" />
-        <item itemvalue="JUnit.LazyEvalutionTest.testIntermediateOperationTest" />
-        <item itemvalue="JUnit.CreateStreamPipelineTest.testStreamPipeline" />
       </list>
     </recent_temporary>
   </component>
@@ -173,5 +174,16 @@
       <updated>1733809669488</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

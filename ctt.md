@@ -95,4 +95,15 @@ Method                         Keterangan
 map(T -> U)                   Mengubah Stream T menjadi Stream U  
 flatMap(T -> Stream<U>)       Mengubah Stream T menjadi Stream U
 
+# Filtering Operations
+1. Filtering operations adalah operasi di Stream yang digunakan untuk melakukan filter data Stream
+2. Contohnya, misal kita punya Stream data dari 1 sampai 10, lalu kita misal hanya ingin menggunakan data yang ganjil atau genap saja
+
+¥ Method Filtering Operations
+Method                     Keterangan
+
+filter(U -> Boolean)       Mengambil data yang masuk kriteria filter
+distinct()                 Menghapus semua data duplikat
+
+
 
