@@ -128,3 +128,25 @@ Method                     Keterangan
 findAny()                  Mengambil random satu element
 findFirst()                Mengambil element pertama
 
+
+# Aggregate Operations
+1. Java Stream mendukung banyak operasi untuk melakukan proses aggregate
+2. Seperti menghitung jumlah data, menghitung data max dan menghitung data min.
+
+
+¥ Method Aggregate Operations
+Method                           Keterangan
+
+max(Comparator)                  Mencari data max sesuai comparator
+min(Comparator)                  Mencari data min sesuai comparator
+count()                          Menghitung total data
+
+
+# Manual Aggregate Menggunakan Reduce
+1. Java Stream juga menyediakan sebuah operasi yang bernama reduce
+2. Reduce bisa digunakan untuk melakukan proses aggregate secara manual
+3. Misal kita ingin menjumlahkan seluruh angka yang terdapat di Stream, kita bisa melakukan ini menggunakan reduce operator
+4. Di bahasa pemrograman lain, reduce mirip seperti operasi fold
+
+
+
