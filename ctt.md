@@ -73,3 +73,16 @@ Dan biasanya kita akan membuat Stream Pipeline
 Stream Pipeline terdiri dari sebuah sumber stream (bisa array, collection dan lain-lain), lalu diikuti dengan kosong atau lebih stream operations dan diakhiri dengan operasi akhir, misalnya forEach
 Saat menggunakan Stream, hampir kebanyakan kita pasti akan membuat sebuah Stream Pipeline
 
+# Lazy Evaluation
+1. Stream secara default adalah lazy
+2. Dia tidak akan mengalirkan data jika belum menggunakan terminal operation
+3. Selain itu, data hanya akan dialirkan seperlunya saja, tergantung terminal operation nya
+
+
+¥ Intermediate & Terminal Operations
+1. Secara garis besar, ada 2 jenis Stream Operation, yaitu Intermediate dan Terminal Operations
+2. Intermediate Operations merupakan lazy operation, dimana Stream tidak akan dieksekusi sampai memang dibutuhkan
+3. Sedangkan Terminal Operations merupakan operasi yang mentrigger sebuah Stream berjalan
+4. Karena Intermediate Operations adalah lazy, maka secara garis besar, semua Intermediate Operations akan mengembalikan Stream lagi
+
+
