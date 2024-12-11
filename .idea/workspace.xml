@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/RetrievingOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CreateOrderingOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +79,8 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.RetrievingOperationTest">
-    <configuration name="FilteringOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CreateOrderingOperationTest.testOrderingOperation">
+    <configuration name="CreateOrderingOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -90,13 +89,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateOrderingOperationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilteringOperationTest.testDistinct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateOrderingOperationTest.testOrderingOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +104,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
-      <option name="METHOD_NAME" value="testDistinct" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CreateOrderingOperationTest" />
+      <option name="METHOD_NAME" value="testOrderingOperation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreateOrderingOperationTest.testOrderingOperation" />
+        <item itemvalue="JUnit.CreateOrderingOperationTest" />
         <item itemvalue="JUnit.RetrievingOperationTest" />
         <item itemvalue="JUnit.RetrievingOperationTest.testRetrivingSingleElement" />
         <item itemvalue="JUnit.RetrievingOperationTest.testRetrieveOperationTest" />
-        <item itemvalue="JUnit.FilteringOperationTest.testDistinct" />
-        <item itemvalue="JUnit.FilteringOperationTest" />
       </list>
     </recent_temporary>
   </component>
