@@ -162,8 +162,23 @@ allMatch(T -> Boolean)        Apakah semua data match dengan kondisi
 noneMatch(T -> Boolean)       Apakah semua data tidak match dengan kondisi
 
 # For Each Operations
-Untuk mengiterasi data satu persatu, sebelumnya kita sudah sering menggunakan operasi forEach
-Selain forEach, ada juga method untuk melakukan for each, tapi tanpa harus melakukan terminal operation
+1. Untuk mengiterasi data satu persatu, sebelumnya kita sudah sering menggunakan operasi forEach
+2. Selain forEach, ada juga method untuk melakukan for each, tapi tanpa harus melakukan terminal operation
 
+# Primitive Stream
+1. Sebelumnya kita sudah tahu bahwa implementasi Stream di Java adalah java.util.stream.Stream<T>
+2. Namun bagaimana jika kita butuh melakukan stream terhadap data primitive seperti int, long atau double?
+3. Karena untuk Generic hanya bisa menampung tipe data Object, maka di Java Stream, dibuat implementasi Stream khusus untuk tipe data primitive
+
+Class                             Keterangan
+
+java.util.stream.IntStream        Stream untuk tipe data int
+java.util.stream.LongStream       Stream untuk tipe data long
+java.util.stream.DoubleStream     Stream untuk tipe data double
+
+¥ Primitive Stream Operations
+1. Hampir semua stream operator yang pernah kita bahas, ada juga di primitive stream class
+2. Bahkan ada beberapa operator yang lebih sederhana, seperti untuk aggregate, kita tidak perlu menggunakan comparator lagi, bahkan ada operator average() untuk menghitung rata-rata di primitive stream
+3. Cara pembuatan primitive stream pun hampir mirip dengan Stream biasa, kita bisa gunakan static method di class nya, misal IntStream.of(...), IntStream.builder(), dan lain-lain
 
 
