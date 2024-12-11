@@ -148,5 +148,19 @@ count()                          Menghitung total data
 3. Misal kita ingin menjumlahkan seluruh angka yang terdapat di Stream, kita bisa melakukan ini menggunakan reduce operator
 4. Di bahasa pemrograman lain, reduce mirip seperti operasi fold
 
+# Check Operation
+1. Check Operations adalah operasi yang digunakan untuk melakukan pengecekan data di dalam Stream
+2. Ada banyak sekali operasi yang bisa digunakan untuk melakukan pengecekan
+3. Dan hasil operasi check adalah boolean
+
+
+
+Method                        Keterangan
+
+anyMatch(T -> Boolean)        Apakah ada salah satu data yang match dengan kondisi
+allMatch(T -> Boolean)        Apakah semua data match dengan kondisi
+noneMatch(T -> Boolean)       Apakah semua data tidak match dengan kondisi
+
+
 
 

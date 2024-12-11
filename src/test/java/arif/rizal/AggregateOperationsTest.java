@@ -20,7 +20,7 @@ public class AggregateOperationsTest {
     @Test
     void testReduceOperator()
     {
-        List<Integer> numbers = List.of(1,2,3,4,5,6,6);
+        List<Integer> numbers = List.of(1,2,3,4,5);
         Integer sum = numbers.stream().reduce(0,(result, item) -> result +item);
         Integer factorial = numbers.stream().reduce(1, (result, item) -> result * item);
         System.out.println("SUM " + sum);
