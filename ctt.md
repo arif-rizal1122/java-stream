@@ -85,4 +85,14 @@ Saat menggunakan Stream, hampir kebanyakan kita pasti akan membuat sebuah Stream
 3. Sedangkan Terminal Operations merupakan operasi yang mentrigger sebuah Stream berjalan
 4. Karena Intermediate Operations adalah lazy, maka secara garis besar, semua Intermediate Operations akan mengembalikan Stream lagi
 
+# Transformation Operation
+1. Ada banyak Stream Operations di Java Stream, kita akan mulai bahas dari Transformation Operations
+2. Transformation Operations adalah operasi yang digunakan untuk mengubah bentuk Stream
+3. Ada banyak function yang bisa digunakan untuk mengubah bentuk Stream menjadi sebuah Stream baru, contohnya map dan flatMap
+
+¥ Method
+Method                         Keterangan
+map(T -> U)                   Mengubah Stream T menjadi Stream U  
+flatMap(T -> Stream<U>)       Mengubah Stream T menjadi Stream U
+
 
