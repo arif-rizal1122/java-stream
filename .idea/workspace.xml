@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/FilteringOperationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/RetrievingOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
     </list>
@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamOperationTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/LazyEvalutionTest.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/RetrievingOperationTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/TransformationOperationTest.java" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -65,8 +66,12 @@
     "JUnit.CreateStreamTest.executor": "Run",
     "JUnit.CreateStreamTest.testCreateSingleStream.executor": "Run",
     "JUnit.FilteringOperationTest.executor": "Run",
+    "JUnit.FilteringOperationTest.testDistinct.executor": "Run",
     "JUnit.FilteringOperationTest.testFilteringOperation.executor": "Run",
     "JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor": "Run",
+    "JUnit.RetrievingOperationTest.executor": "Run",
+    "JUnit.RetrievingOperationTest.testRetrieveOperationTest.executor": "Run",
+    "JUnit.RetrievingOperationTest.testRetrivingSingleElement.executor": "Run",
     "JUnit.TransformationOperationTest.executor": "Run",
     "JUnit.TransformationOperationTest.testFlatMap.executor": "Run",
     "JUnit.TransformationOperationTest.testMapOperation.executor": "Run",
@@ -75,7 +80,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FilteringOperationTest.testDistinct">
+  <component name="RunManager" selected="JUnit.RetrievingOperationTest">
     <configuration name="FilteringOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
@@ -107,7 +112,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilteringOperationTest.testFilteringOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RetrievingOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -116,29 +121,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.FilteringOperationTest" />
-      <option name="METHOD_NAME" value="testFilteringOperation" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransformationOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.TransformationOperationTest" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.RetrievingOperationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransformationOperationTest.testFlatMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RetrievingOperationTest.testRetrieveOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +136,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.TransformationOperationTest" />
-      <option name="METHOD_NAME" value="testFlatMap" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.RetrievingOperationTest" />
+      <option name="METHOD_NAME" value="testRetrieveOperationTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetrievingOperationTest.testRetrivingSingleElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.RetrievingOperationTest" />
+      <option name="METHOD_NAME" value="testRetrivingSingleElement" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RetrievingOperationTest" />
+        <item itemvalue="JUnit.RetrievingOperationTest.testRetrivingSingleElement" />
+        <item itemvalue="JUnit.RetrievingOperationTest.testRetrieveOperationTest" />
         <item itemvalue="JUnit.FilteringOperationTest.testDistinct" />
         <item itemvalue="JUnit.FilteringOperationTest" />
-        <item itemvalue="JUnit.FilteringOperationTest.testFilteringOperation" />
-        <item itemvalue="JUnit.TransformationOperationTest" />
-        <item itemvalue="JUnit.TransformationOperationTest.testFlatMap" />
       </list>
     </recent_temporary>
   </component>

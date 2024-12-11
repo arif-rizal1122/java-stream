@@ -105,5 +105,26 @@ Method                     Keterangan
 filter(U -> Boolean)       Mengambil data yang masuk kriteria filter
 distinct()                 Menghapus semua data duplikat
 
+# Retriving Operation
+1. Retrieving Operations adalah operasi pada Stream untuk melakukan pengambilan sebagian data
+2. Secara garis besar, cara kerjanya hampir mirip dengan Filtering
 
+¥ Method Retrieving Operations
+Method                       Keterangan
+
+limit(n)                     Mengambil sejumlah n data
+skip(n)                      Menghiraukan sejumlah n data
+takeWhile(T -> Boolean)      Mengambil data selama kondisi true
+dropWhile(T -> Boolean)      Menghiraukan data selama kondisi true
+
+¥ Retrieving Single Element
+1. Stream juga memiliki kemampuan untuk mengambil satu element saja
+2. Namun operasi jenis ini merupakan operasi terminal, sehingga akan secara otomatis menjalankan aliran data di Stream
+
+¥ Method Retrieving Single Element
+
+Method                     Keterangan
+
+findAny()                  Mengambil random satu element
+findFirst()                Mengambil element pertama
 
