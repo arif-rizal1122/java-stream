@@ -198,3 +198,7 @@ Selain Collection, Collectors juga bisa digunakan untuk membuat Map dari String
 Yang membedakan dengan List atau Set, kita harus tentukan function untuk membentuk Key dan Value nya jika ingin membuat Map
 Ada banyak function yang bisa kita gunakan, seperti Collectors.toMap(...), Collectors.toConcurrentMap(...) dan Collectors.toUnmodifiableMap(...)
 
+# Grouping By
+1. Collectors juga bisa digunakan untuk melakukan grouping by sebuah Stream
+2. Hasil dari grouping by adalah Map<Group, List<Value>>
+
