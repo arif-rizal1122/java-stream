@@ -207,5 +207,12 @@ Selain grouping by, Collectors juga bisa digunakan untuk partitioning by
 Hanya saja hasil dari partitioning by hanyalah 2 buah group boolean (true, false)
 Hal ini berarti partitioning by hanya akan menghasilkan Map<Boolean, List<Value>>
 
+# Pararrel Stream
+1. Salah satu fitur yang menarik di Java Stream adalah, Stream bisa dijalankan secara parallel
+2. Materi tentang Parallel Programming akan dibahas lebih detail di video tutorial Java Thread
+3. Secara garis besar, parallel artinya beberapa proses berjalan secara bersamaan
+4. Secara default, Parallel Stream akan dijalankan di ForkJoinPool, dimana akan di running secara default menggunakan Thread sejumlah maksimal total CPU kita
+
+
 
 
