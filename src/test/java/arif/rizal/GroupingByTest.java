@@ -18,6 +18,19 @@ public class GroupingByTest {
         Map<String, List<String>> map1 = names.stream()
                 .collect(Collectors.groupingBy(name -> name.length() > 4 ? "besar" : "kecil"));
         System.out.println(map1);
+    }
+
+    @Test
+    void testCollectorsPartioning(){
+        List<Integer> numbers = List.of(1,2,3,4,5,6,7,8,9,10);
+        Map<Boolean, List<Integer>> map = numbers.stream()
+                .collect(Collectors.partitioningBy(integer -> integer > 5));
+        System.out.println(map);
+
+        List<String> names = List.of("Arif", "Badel", "Cuin", "DESK");
+        Map<Boolean, List<String>> map1 = names.stream()
+                .collect(Collectors.partitioningBy(name -> name.length() > 4));
+        System.out.println(map1);
 
     }
 

@@ -202,3 +202,10 @@ Ada banyak function yang bisa kita gunakan, seperti Collectors.toMap(...), Colle
 1. Collectors juga bisa digunakan untuk melakukan grouping by sebuah Stream
 2. Hasil dari grouping by adalah Map<Group, List<Value>>
 
+¥ Partitioning By
+Selain grouping by, Collectors juga bisa digunakan untuk partitioning by
+Hanya saja hasil dari partitioning by hanyalah 2 buah group boolean (true, false)
+Hal ini berarti partitioning by hanya akan menghasilkan Map<Boolean, List<Value>>
+
+
+

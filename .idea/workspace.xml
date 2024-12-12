@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/GroupingByTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/arif/rizal/GroupingByTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/GroupingByTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamBuilderTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamOperationTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/CreateStreamTest.java" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/GroupingByTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/LazyEvalutionTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/RetrievingOperationTest.java" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/test/java/arif/rizal/TransformationOperationTest.java" root0="SKIP_HIGHLIGHTING" />
@@ -86,6 +87,7 @@
     "JUnit.ForEachOperationTest.tForEachOperation.executor": "Run",
     "JUnit.ForEachOperationTest.testForEachOperation.executor": "Run",
     "JUnit.GroupingByTest.executor": "Run",
+    "JUnit.GroupingByTest.testCollectorsPosition.executor": "Debug",
     "JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor": "Run",
     "JUnit.RetrievingOperationTest.executor": "Run",
     "JUnit.RetrievingOperationTest.testRetrieveOperationTest.executor": "Run",
@@ -98,7 +100,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.GroupingByTest">
+  <component name="RunManager" selected="JUnit.GroupingByTest.testCollectorsPosition">
     <configuration name="PrimitiveStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arif.rizal.PrimitiveStreamTest" />
       <module name="belajar-java-stream" />
@@ -144,21 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachOperationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GroupingByTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
@@ -174,13 +161,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GroupingByTest.testCollectorsPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.GroupingByTest" />
+      <option name="METHOD_NAME" value="testCollectorsPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupingByTest.testCollectorsPosition" />
         <item itemvalue="JUnit.GroupingByTest" />
         <item itemvalue="JUnit.CollectOperationTest.testCollectorsMap" />
         <item itemvalue="JUnit.CollectOperationTest.testCollectorsCollect" />
         <item itemvalue="Application.PrimitiveStreamTest" />
-        <item itemvalue="JUnit.ForEachOperationTest" />
       </list>
     </recent_temporary>
   </component>
