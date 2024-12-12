@@ -181,4 +181,20 @@ java.util.stream.DoubleStream     Stream untuk tipe data double
 2. Bahkan ada beberapa operator yang lebih sederhana, seperti untuk aggregate, kita tidak perlu menggunakan comparator lagi, bahkan ada operator average() untuk menghitung rata-rata di primitive stream
 3. Cara pembuatan primitive stream pun hampir mirip dengan Stream biasa, kita bisa gunakan static method di class nya, misal IntStream.of(...), IntStream.builder(), dan lain-lain
 
+# Collector Operation
+1. Stream memiliki sebuah operator bernama collect(Collector), function ini biasanya digunakan untuk meng-collect data Stream dan kita ubah menjadi struktur data yang kita inginkan, biasanya kebanyakan developer menggunakan operator collect() untuk mengubah Stream menjadi Collection
+2. Operator collect() membutuhkan parameter Collector, namun biasanya kita jarang sekali membuat implementasi interface Collector, karena terlalu kompleks
+3. https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/stream/Collector.html
+4. Untungnya Java Stream sudah menyediakan sebuah class helper untuk membuat Collector, bernama Collectors
+
+¥ Collectors
+1. Collectors adalah class helper yang bisa digunakan untuk membuat Collector
+2. Ini mempermudah kita ketika ingin melakukan operasi collect terhadap sebuah Stream
+3. Ada banyak sekali static method yang terdapat di class Collectors, dan nanti kita akan coba bahas beberapa method yang sering digunakan
+4. https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/stream/Collectors.html 
+
+¥ Membuat Map dengan Collectors
+Selain Collection, Collectors juga bisa digunakan untuk membuat Map dari String
+Yang membedakan dengan List atau Set, kita harus tentukan function untuk membentuk Key dan Value nya jika ingin membuat Map
+Ada banyak function yang bisa kita gunakan, seperti Collectors.toMap(...), Collectors.toConcurrentMap(...) dan Collectors.toUnmodifiableMap(...)
 

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="184328b4-4bda-4dce-a321-0dd969ca933f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/PrimitiveStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/arif/rizal/CollectOperationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ctt.md" beforeDir="false" afterPath="$PROJECT_DIR$/ctt.md" afterDir="false" />
     </list>
@@ -59,41 +59,42 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.AggregateOperationsTest.executor": "Run",
-    "JUnit.AggregateOperationsTest.testAggregateOperation.executor": "Run",
-    "JUnit.AggregateOperationsTest.testReduceOperator.executor": "Run",
-    "JUnit.CheckOperation.executor": "Run",
-    "JUnit.CheckOperation.testCheckOperation.executor": "Run",
-    "JUnit.CreateIntermediateOperationTest.testIntermediateOperationTest.executor": "Run",
-    "JUnit.CreateOrderingOperationTest.executor": "Run",
-    "JUnit.CreateOrderingOperationTest.testOrderingOperation.executor": "Run",
-    "JUnit.CreateStreamBuilderTest.executor": "Run",
-    "JUnit.CreateStreamBuilderTest.testCreateStreamBuilder.executor": "Run",
-    "JUnit.CreateStreamOperationTest.executor": "Run",
-    "JUnit.CreateStreamOperationTest.testMapStream.executor": "Run",
-    "JUnit.CreateStreamTest.executor": "Run",
-    "JUnit.CreateStreamTest.testCreateSingleStream.executor": "Run",
-    "JUnit.FilteringOperationTest.executor": "Run",
-    "JUnit.FilteringOperationTest.testDistinct.executor": "Run",
-    "JUnit.FilteringOperationTest.testFilteringOperation.executor": "Run",
-    "JUnit.ForEachOperationTest.executor": "Run",
-    "JUnit.ForEachOperationTest.tForEachOperation.executor": "Run",
-    "JUnit.ForEachOperationTest.testForEachOperation.executor": "Run",
-    "JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor": "Run",
-    "JUnit.RetrievingOperationTest.executor": "Run",
-    "JUnit.RetrievingOperationTest.testRetrieveOperationTest.executor": "Run",
-    "JUnit.RetrievingOperationTest.testRetrivingSingleElement.executor": "Run",
-    "JUnit.TransformationOperationTest.executor": "Run",
-    "JUnit.TransformationOperationTest.testFlatMap.executor": "Run",
-    "JUnit.TransformationOperationTest.testMapOperation.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.PrimitiveStreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AggregateOperationsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AggregateOperationsTest.testAggregateOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AggregateOperationsTest.testReduceOperator.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CheckOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CheckOperation.testCheckOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateIntermediateOperationTest.testIntermediateOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderingOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateOrderingOperationTest.testOrderingOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamBuilderTest.testCreateStreamBuilder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamOperationTest.testMapStream.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CreateStreamTest.testCreateSingleStream.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilteringOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilteringOperationTest.testDistinct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FilteringOperationTest.testFilteringOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ForEachOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ForEachOperationTest.tForEachOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ForEachOperationTest.testForEachOperation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LazyEvalutionTest.testIntermediateOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RetrievingOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RetrievingOperationTest.testRetrieveOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RetrievingOperationTest.testRetrivingSingleElement.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformationOperationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformationOperationTest.testFlatMap.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformationOperationTest.testMapOperation.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.PrimitiveStreamTest">
+}</component>
+  <component name="RunManager" selected="JUnit.CollectOperationTest.testCollectorsMap">
     <configuration name="PrimitiveStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arif.rizal.PrimitiveStreamTest" />
       <module name="belajar-java-stream" />
@@ -107,7 +108,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectOperationTest.testCollectorsCollect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="belajar-java-stream" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +117,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.CheckOperation" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CollectOperationTest" />
+      <option name="METHOD_NAME" value="testCollectorsCollect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectOperationTest.testCollectorsMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="belajar-java-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arif.rizal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="arif.rizal" />
+      <option name="MAIN_CLASS_NAME" value="arif.rizal.CollectOperationTest" />
+      <option name="METHOD_NAME" value="testCollectorsMap" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,22 +151,6 @@
       <option name="PACKAGE_NAME" value="arif.rizal" />
       <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForEachOperationTest.tForEachOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="belajar-java-stream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arif.rizal.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="arif.rizal" />
-      <option name="MAIN_CLASS_NAME" value="arif.rizal.ForEachOperationTest" />
-      <option name="METHOD_NAME" value="tForEachOperation" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectOperationTest.testCollectorsMap" />
+        <item itemvalue="JUnit.CollectOperationTest.testCollectorsCollect" />
         <item itemvalue="Application.PrimitiveStreamTest" />
         <item itemvalue="JUnit.ForEachOperationTest" />
         <item itemvalue="JUnit.ForEachOperationTest.testForEachOperation" />
-        <item itemvalue="JUnit.ForEachOperationTest.tForEachOperation" />
-        <item itemvalue="JUnit.CheckOperation" />
       </list>
     </recent_temporary>
   </component>
